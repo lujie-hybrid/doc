@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
 
 # 生成静态文件
-npm run docs:build
+npm run build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd .vuepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
