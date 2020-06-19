@@ -45,7 +45,6 @@
 | src/store/index.js | vuex状态管理的入口文件 |
 | src/utils/server/index.js | ajax封装成型后的导出文件,用于在src/api/index.js里面使用 |
 | src/utils/server/ajax.js | axios的原始配置文件 |
-| src/utils/charts.js | echarts按需引入的配置文件 |
 | src/utils/theme.js | echarts的主题色配置文件 |
 | src/utils/common.js | 通用方法文件 |
 | src/utils/elementui.js | elementui第三方UI库的按需引入配置文件 |
