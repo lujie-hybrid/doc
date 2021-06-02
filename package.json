@@ -1,15 +1,15 @@
 {
-    "name": "chart",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-      "dev": "vuepress dev . --temp .temp",
-      "build": "vuepress build ."
-    },
-    "dependencies": {
-    },
-    "devDependencies": {
-      "vuepress": "^1.5.2"
-    }
+  "name": "chart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress": "^1.8.2"
   }
-  
+}
